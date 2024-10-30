@@ -1,11 +1,10 @@
 import './App.css';
+import Main from './Components/Main'
 
 function App() {
   return (
     <> 
-    <h1>
-      Hello MindEase
-    </h1>
+    <Main/>
     </>
   );
 }
