@@ -1,21 +1,21 @@
 export default function mainScript() {
-  document.addEventListener("DOMContentLoaded", () => {
-    const loadingScreen = document.querySelector(".spinner");
-    const mainData = document.querySelector(".main-content");
-    console.log("Main rendered");
+  // document.addEventListener("DOMContentLoaded", () => {
+  //   const loadingScreen = document.querySelector(".spinner");
+  //   const mainData = document.querySelector(".main-content");
+  //   console.log("Main rendered");
 
-    if (loadingScreen) {
-      setTimeout(() => {
-        loadingScreen.style.opacity = 0;
+  //   if (loadingScreen) {
+  //     setTimeout(() => {
+  //       loadingScreen.style.opacity = 0;
 
-        setTimeout(() => {
-          loadingScreen.style.display = "none";
-          mainData.style.display = "block";
-          console.log("Main Site");
-        }, 1000); // Wait for the transition to finish before hiding
-      }, 2500);
-    }
-  });
+  //       setTimeout(() => {
+  //         loadingScreen.style.display = "none";
+  //         mainData.style.display = "block";
+  //         console.log("Main Site");
+  //       }, 1000); // Wait for the transition to finish before hiding
+  //     }, 2500);
+  //   }
+  // });
 
   document.addEventListener("scroll", () => {
     const allLeftServices = document.querySelectorAll(".left");

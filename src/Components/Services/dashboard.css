@@ -1,3 +1,575 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensure padding and border are included in element's total width and height */
+}
+
+body {
+  background-color: #fefefe;
+}
+
+/* .container {
+    background-color: #bef7eb;
+} */
+
+.secton_container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+.section_header {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.btn {
+  padding: 0.75rem, 2rem;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  color: var(--white);
+  border-radius: 5px;
+  padding: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* .navbar-nav:hover{
+cursor: pointer;
+background-color: #fb923c;
+border-radius: 10px;
+} */
+
+/* Adjustments for mobile view */
+/* @media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+} */
+
+.btn_service {
+  padding: 0.75rem, 2rem;
+  /* outline:none;
+     border: none; */
+  font-size: 1.2rem;
+  /* white-space: nowrap; */
+  color: var(--white);
+  border-radius: 5px;
+  padding: 1rem;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid var(--secondary-color);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+.btn_service:hover {
+  background: #fb923c;
+  background-color: var(--secondary-color);
+}
+
+.btn1 {
+  padding: 0.7rem, 2rem;
+  outline: none;
+  border: none;
+  font-size: 1.3rem;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 500px; /* Adjust as needed */
+  padding-top: 100px;
+  background-image: url("/public/Frontend/assets/header1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: addSecondImage 5s ease-in-out infinite;
+}
+@keyframes addSecondImage {
+  0% {
+    background-image: linear-gradient(
+        to right,
+        rgba(18, 172, 142, 0.9),
+        rgba(18, 172, 142, 0.7)
+      ),
+      url("/public/Frontend/assets/header1.jpg");
+  }
+  100% {
+    background-image: linear-gradient(
+        to right,
+        rgba(18, 172, 142, 0.9),
+        rgba(18, 172, 142, 0.7)
+      ),
+      url("/public/Frontend/assets/header.jpg"); /* Second image */
+  }
+}
+
+.problem-list {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+.problem-list .link a {
+  padding: 0.5rem;
+  color: var(--primary-color-light);
+  display: block;
+  text-decoration: none;
+}
+
+.problem-list .link a:hover {
+  color: var(--white);
+  background-color: #d4f5f3;
+  border-radius: 10px;
+  transition-delay: 0.2s;
+}
+
+.problem-list li a {
+  margin-left: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  background-color: #fb923c;
+  border-radius: 5px;
+  font-size: 1rem;
+  display: block;
+  padding: 5px;
+}
+
+#logo {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#logo span {
+  color: #fb923c;
+}
+/* .intros{
+    background-color: #96c8fa;
+} */
+
+.main {
+  /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(18, 172, 142, 0.6)); */
+  /* padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width:500px; */
+  position: relative;
+  width: 100%;
+  height: 750px; /* Adjust as needed */
+  background-image: url("/public/Frontend/assets/mental-health.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: addSecondImage 5s ease-in-out infinite;
+}
+@keyframes addSecondImage {
+  0% {
+    background-image: linear-gradient(
+        to right,
+        rgba(18, 172, 142, 0.9),
+        rgba(18, 172, 142, 0.7)
+      ),
+      url("/public/Frontend/assets/header1.jpg");
+  }
+  100% {
+    background-image: linear-gradient(
+        to right,
+        rgba(18, 172, 142, 0.9),
+        rgba(18, 172, 142, 0.7)
+      ),
+      url("/public/Frontend/assets/mental-health.jpg"); /* Second image */
+  }
+}
+
+@media (max-width: 768px) {
+  /* Hide the navigation links on smaller screens */
+
+  /* Show the toggle button on smaller screens */
+
+  /* When active, show the nav links */
+}
+.hero-section #intro {
+  padding-top: 13rem;
+  padding-bottom: 2rem;
+  /* background-color: rgba(235, 234, 234, 0.8); */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+@media (width < 780px) {
+  body {
+    width: fit-content;
+  }
+
+  #why_choose {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .header__container {
+    flex-direction: column;
+  }
+  .load img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 40vw;
+    margin-top: 30vh;
+  }
+}
+
+@media (width < 600px) {
+  body {
+    width: fit-content;
+  }
+  header {
+    height: 1000px;
+  }
+  #why_choose {
+    margin: 30px;
+  }
+  .service__header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .why__grid {
+    column-gap: 1rem;
+  }
+
+  .doctors__header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .doctors__grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .footer__bar__content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .load img {
+    width: 10rem;
+    height: 10rem;
+    margin-left: 34vw;
+    margin-top: 30vh;
+  }
+}
+
+.hero-section #intro h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: #fdfdfd;
+  text-align: center;
+}
+
+.hero-section #intro p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 100px;
+  color: #fff;
+}
+
+marquee {
+  /* background: linear-gradient(135deg, rgba(18, 172, 142, 0.6), rgba(255, 255, 255, 0.8)); */
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem; /* Allows horizontal scrolling on smaller screens */
+}
+
+.images .image img {
+  width: 18rem;
+  height: 15rem;
+  border-radius: 5px;
+}
+.test {
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 4rem;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  box-shadow: 5px 10px 18px #888888;
+  flex: 1 1 30%; /* Allows boxes to grow/shrink and sets base width */
+  cursor: pointer;
+  text-align: center;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effects */
+  background-color: rgba(
+    146,
+    235,
+    217,
+    0.6
+  ); /* Semi-transparent teal background color */
+}
+.test {
+  align-items: center;
+  justify-content: center;
+}
+/* Hover effect to slightly scale up the box and darken the shadow */
+.test:hover {
+  transform: scale(1.05); /* Scales up the box slightly on hover */
+  box-shadow: 8px 15px 20px #666666; /* Darkens the shadow on hover */
+}
+
+.test li strong {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+
+.test li {
+  margin-bottom: 3rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#all-types-test {
+  background: linear-gradient(360deg, rgba(255, 255, 255, 0.8), #fac395);
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#all-types-test1 {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+#interactive-test {
+  /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(18, 172, 142, 0.6)); */
+  padding: 20px;
+}
+
+#interactive-test h2 {
+  text-align: center;
+  padding: 3rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#interactive-test form {
+  border: 1px solid rgb(0, 132, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 0 2rem;
+  border-radius: 10px;
+  background: linear-gradient(
+    135deg,
+    rgba(18, 172, 142, 0.6),
+    rgba(255, 255, 255, 0.8)
+  );
+}
+
+#interactive-test form label {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#interactive-test form select {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+
+#submit-btn {
+  border: none;
+  padding: 1rem;
+  width: 10rem;
+  background-color: #fb923c;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+#submit-btn:hover {
+  background-color: #96c8fa;
+  color: black;
+}
+
+#resources {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8),
+    rgba(18, 172, 142, 0.6)
+  );
+  padding: 20px;
+  margin: 20px 0;
+}
+
+#resources h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 1rem;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.videos iframe {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  background: #000;
+  padding: 30px 0;
+  color: gray;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.footer .row {
+  width: 100%;
+  margin: 1% 0;
+  padding: 0.6% 0;
+  gap: 10px;
+  display: inline;
+}
+
+.footer .row a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s;
+}
+
+.footer .row a:hover {
+  color: #fff;
+}
+
+.footer .row ul {
+  width: 100%;
+}
+
+.footer .row ul li {
+  display: inline-block;
+  margin: 0 30px;
+}
+
+.footer .row a i {
+  font-size: 2em;
+  margin: 0 1%;
+}
+
+#contact-support h2 {
+  text-align: center;
+  padding: 3rem;
+  padding-bottom: 1.2rem;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#contact-support p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+/*---------------Responsiveness------------------*/
+
+@media (max-width: 720px) {
+  .footer {
+    text-align: left;
+    padding: 5%;
+  }
+
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .footer .row a i {
+    margin: 0 3%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 772px) {
+  .container {
+    width: fit-content;
+  }
+  .hero-section {
+    width: fit-content;
+  }
+  .hero-section #intro h1 {
+    font-size: 3rem;
+  }
+}
+/* @media (max-width:375px){
+    body {
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+} */
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --primary-color: #12ac8e;
@@ -23,38 +595,23 @@ html {
   display: none;
 } */
 
-.container {
+/* .container {
   text-align: center;
-}
+} */
 
 /* Base styles for the navigation */
 
-.nav__links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-}
-
-.nav__toggle {
-  display: none; /* Hidden on larger screens */
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-.spinner {
+/* .spinner {
   width: 55px;
   height: 55px;
-  left: 45vw;
-  top: 45vh;
+  left:45vw;
+  top:45vh;
   position: fixed;
   border-radius: 50%;
-  background: conic-gradient(#0000 10%, #000000);
-  /* -webkit-mask: radial-gradient(farthest-side, #0000 calc(70% - -5px), #000 0); */
-
+  background: conic-gradient(#0000 10%,#000000);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(70% - -5px),#000 0);
   animation: spinner-zp9dbg 0.5s infinite linear;
-}
+} */
 
 @keyframes spinner-zp9dbg {
   to {
@@ -163,33 +720,58 @@ header {
   }
 }
 
-/* .nav__container {
-  padding: 2rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav__logo {
-  font-size: 2rem;
-  font-weight: 600;
-  color: var(--white);
-}
-.nav__logo span {
-  color: var(--secondary-color);
-}
-.nav__links {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 2rem;
-}
-
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-} */
+}
+
+.link {
+  position: relative; /* Position relative for dropdown positioning */
+}
+
+.link a {
+  padding: 0.5rem;
+  color: var(--primary-color-light);
+  font-size: large;
+  display: block;
+}
+.link a:hover {
+  color: var(--white);
+  background-color: #fb923c;
+  border-radius: 10px;
+  transition-delay: 0.5s ease-in-out;
+}
+
+.dropdown {
+  display: none; /* Hide the dropdown by default */
+  position: absolute;
+  top: 100%; /* Position below the main link */
+  left: 0;
+  background-color: #f9f9f9;
+  min-width: 160px; /* Adjust width as needed */
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure dropdown is above other content */
+}
+
+.dropdown li {
+  border-bottom: 1px solid #fb923c;
+}
+
+.dropdown li a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+}
+
+.dropdown li a:hover {
+  background-color: #fb923c; /* Hover effect for dropdown items */
+}
+
+.link:hover .dropdown {
+  display: block; /* Show dropdown on hover */
+}
 
 /* .text1{
   color:black;
@@ -815,9 +1397,9 @@ ul {
 }
 
 @media (width>1024px) {
-  .container {
-    margin: 50px;
-  }
+  /* .container{
+      margin:50px;
+    } */
 }
 
 @media (max-width: 375px) {
