@@ -9,6 +9,7 @@ import Emotional from "./Components/Services/Emotional.js";
 import Mood from "./Components/Services/Mood.js";
 import SocialProblems from "./Components/Services/SocialProblems.js";
 import Contact from "./Components/Contact.js";
+import LoginComponent from "./Components/Login/Login.js";
 import LoadingBar from 'react-top-loading-bar';
 
 function AppContent() {
@@ -35,6 +36,7 @@ function AppContent() {
         <Route exact path="/emotional" element={<Emotional key={'Emotional'}/>} />
         <Route exact path="/mood" element={<Mood key={'Mood'}/>} />
         <Route exact path="/socialProblems" element={<SocialProblems key={'SocialProblems'}/>} />
+        <Route exact path="/login" element={<LoginComponent key={'login'}/>} />
         <Route exact path="/contact" element={<Contact key={'Contact'}/>} />
       </Routes>
     </>
