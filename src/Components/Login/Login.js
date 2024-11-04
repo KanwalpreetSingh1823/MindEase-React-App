@@ -60,7 +60,7 @@ const LoginComponent = () => {
         localStorage.setItem("name", name);
         localStorage.setItem("email", email);
         localStorage.setItem("password", password);
-        window.location.href = "https://mindeaseapp.vercel.app/";
+        window.location.href = "https://mind-ease-react-app.vercel.app/";
       } else {
         alert("Incorrect OTP. Please try again.");
       }
