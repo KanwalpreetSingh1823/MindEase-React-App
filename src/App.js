@@ -10,6 +10,7 @@ import Mood from "./Components/Services/Mood.js";
 import SocialProblems from "./Components/Services/SocialProblems.js";
 import Contact from "./Components/Contact.js";
 import LoginComponent from "./Components/Login/Login.js";
+import Account from "./Components/Account/Account.js"
 import LoadingBar from 'react-top-loading-bar';
 
 function AppContent() {
@@ -38,6 +39,7 @@ function AppContent() {
         <Route exact path="/socialProblems" element={<SocialProblems key={'SocialProblems'}/>} />
         <Route exact path="/login" element={<LoginComponent key={'login'}/>} />
         <Route exact path="/contact" element={<Contact key={'Contact'}/>} />
+        <Route exact path="/account" element={<Account key={'Account'}/>} />
       </Routes>
     </>
   );
