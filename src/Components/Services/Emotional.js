@@ -6,7 +6,7 @@ import "./dashboard.css";
 const Emotional = () => {
   useEffect(() => {
     const typed = new Typed(".textline", {
-      strings: ["Stroke", "Multiple Sclerosis", "Tension Headaches "],
+      strings: ["Anxiety", "Depression", "Anger and Irritability"],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -36,10 +36,10 @@ const Emotional = () => {
                 Emotional Tests = <span class="textline"></span>
               </h1>
               <p>
-                Psychological tests are standardized instruments used to measure
-                a specific aspect of an individual's mental health. These tests
-                can help assess cognitive abilities, emotional functioning,
-                personality traits, and more.
+                Emotional problems refer to difficulties in managing emotions
+                that can impact an individual's mental health, behavior, and
+                overall quality of life.Here are some common emotional problems
+                and how they affect mental health:
               </p>
             </section>
           </div>
@@ -58,16 +58,16 @@ const Emotional = () => {
       {/* <marquee behavior="scroll" direction="left"> */}
       <div class="images">
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-1.jpg" alt="Stress" />
+          <img src="/Frontend/assets/emotional/img1.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-2.jpg" alt="Stress" />
+          <img src="/Frontend/assets/emotional/img2.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-3.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/emotional/img3.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-4.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/emotional/img4.jpg" alt="Stress" />
         </div>
       </div>
       {/* </marquee> */}
@@ -77,67 +77,80 @@ const Emotional = () => {
       <div class="test">
         <div class="test">
           <li>
-            <strong>Personality Tests</strong>
+            <strong>Anxiety</strong>
             <p>
-              Assess personality traits and how they influence
-              behavior.Personality tests are tools used to evaluate and
-              understand various personality traits and characteristics of
-              individuals. They often involve a series of questions or scenarios
-              that are designed to reveal patterns in thoughts, feelings, and
-              behaviors. These tests can provide insights into an individual's
-              personality traits, strengths, weaknesses, and preferences.
+              Description: Anxiety is a feeling of worry, nervousness, or fear
+              that is often excessive or irrational. It can be a reaction to
+              stress or a trigger for various mental health disorders, including
+              generalized anxiety disorder (GAD), social anxiety disorder, and
+              panic disorder. Symptoms: Excessive worry or fear about everyday
+              situations Restlessness, irritability, and difficulty
+              concentrating Physical symptoms like sweating, trembling, rapid
+              heartbeat, and shortness of breath
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Cognitive Ability Tests</strong>
+            <strong>Depression</strong>
             <p>
-              Measure mental processes like memory, reasoning, and
-              problem-solving.Cognitive ability tests evaluate different
-              cognitive functions and mental processes to determine how well
-              individuals can think, learn, and apply knowledge. These tests are
-              used in various settings, including educational assessments,
-              employment screening, and psychological evaluations.
+              Description: Depression is a mood disorder characterized by
+              persistent feelings of sadness, hopelessness, and a lack of
+              interest or pleasure in activities. It can affect thoughts,
+              feelings, and behaviors and may lead to various emotional and
+              physical problems. Persistent sadness or low mood Loss of interest
+              in activities once enjoyed Changes in appetite and sleep patterns,
+              fatigue, and feelings of worthlessness or guilt Difficulty
+              concentrating and making decisions, thoughts of death or suicide
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Emotional IQ Tests</strong>
+            <strong>Emotional Numbness</strong>
             <p>
-              Evaluate your ability to perceive, control, and express
-              emotions.Emotional IQ tests assess various aspects of emotional
-              intelligence, including how well individuals can perceive,
-              understand, and manage their own emotions and the emotions of
-              others. These tests aim to provide insights into how emotional
-              skills contribute to personal and professional interactions.
+              Description: Emotional numbness is a reduced ability to feel
+              emotions, often as a coping mechanism for trauma or overwhelming
+              stress. It is commonly associated with conditions like
+              post-traumatic stress disorder (PTSD) or depression. Feeling
+              disconnected or detached from oneself and others Lack of emotional
+              response to positive or negative events Difficulty expressing
+              emotions or empathy A sense of emptiness or feeling "flat"
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Behavioral Assessments</strong>
+            <strong>Grief and Loss</strong>
             <p>
-              Analyze patterns of behavior to understand how they affect your
-              daily life and relationships.Behavioral assessments are systematic
-              methods used to observe, measure, and analyze behavior. They aim
-              to identify specific behaviors, their triggers, and their
-              consequences, helping to understand how these behaviors impact an
-              individual’s daily life and relationships.
+              Description: Grief is a natural response to loss, such as the
+              death of a loved one, a breakup, or losing a job. While grief is a
+              normal process, prolonged or complicated grief can lead to
+              significant emotional problems. Intense sadness, yearning, or
+              longing for the lost person or situation Guilt, anger, or regret
+              about the loss Difficulty accepting the reality of the loss
+              Isolation or withdrawal from social activities
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Mood Disorder Evaluations</strong>
+            <strong>Shame and Guilt</strong>
             <p>
-              Screen for conditions like depression, anxiety, and bipolar
-              disorder.
+              Description: Shame and guilt are powerful emotions that often
+              result from perceived or actual wrongdoing or failure. They can
+              lead to negative self-perception and impact mental health.
+              Persistent feelings of worthlessness or inadequacy Obsessive
+              thoughts about mistakes or perceived failures Withdrawal from
+              others due to fear of judgment or rejection Self-punishing
+              behaviors or self-sabotage Impact: Chronic shame and guilt can
+              contribute to depression, anxiety, low self-esteem, and
+              self-destructive behaviors. They can also hinder personal growth
+              and social relationships.
             </p>
           </li>
         </div>

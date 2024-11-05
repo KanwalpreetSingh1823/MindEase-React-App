@@ -6,7 +6,7 @@ import "./dashboard.css";
 const Physical = () => {
   useEffect(() => {
     const typed = new Typed(".textline", {
-      strings: ["Stroke", "Multiple Sclerosis", "Tension Headaches "],
+      strings: ["Tension Head", "Multiple Sclerosis", "Tension Headaches "],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -36,10 +36,8 @@ const Physical = () => {
                 Physical Tests = <span class="textline"></span>
               </h1>
               <p>
-                Psychological tests are standardized instruments used to measure
-                a specific aspect of an individual's mental health. These tests
-                can help assess cognitive abilities, emotional functioning,
-                personality traits, and more.
+                Physical health problems related to the mind, often referred to
+                as neurological and psychosomatic disorders, involve conditions.
               </p>
             </section>
           </div>
@@ -58,16 +56,16 @@ const Physical = () => {
       {/* <marquee behavior="scroll" direction="left"> */}
       <div class="images">
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-1.jpg" alt="Stress" />
+          <img src="/Frontend/assets/problem/img1.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-2.jpg" alt="Stress" />
+          <img src="/Frontend/assets/problem/img2.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-3.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/problem/img3.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-4.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/problem/img4.jpg" alt="Stress" />
         </div>
       </div>
       {/* </marquee> */}
@@ -77,77 +75,84 @@ const Physical = () => {
       <div class="test">
         <div class="test">
           <li>
-            <strong>Personality Tests</strong>
+            <strong>Neurological Disorders</strong>
             <p>
-              Assess personality traits and how they influence
-              behavior.Personality tests are tools used to evaluate and
-              understand various personality traits and characteristics of
-              individuals. They often involve a series of questions or scenarios
-              that are designed to reveal patterns in thoughts, feelings, and
-              behaviors. These tests can provide insights into an individual's
-              personality traits, strengths, weaknesses, and preferences.
+              Stroke: A sudden interruption of blood supply to the brain,
+              causing brain cells to die. It can result in physical symptoms
+              like weakness, paralysis, and difficulty speaking or understanding
+              language, as well as cognitive and emotional changes. Epilepsy: A
+              disorder characterized by recurrent seizures due to abnormal
+              electrical activity in the brain. Physical symptoms can include
+              convulsions, loss of consciousness, and muscle stiffness or
+              twitching.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Cognitive Ability Tests</strong>
+            <strong>Psychosomatic Disorders</strong>
             <p>
-              Measure mental processes like memory, reasoning, and
-              problem-solving.Cognitive ability tests evaluate different
-              cognitive functions and mental processes to determine how well
-              individuals can think, learn, and apply knowledge. These tests are
-              used in various settings, including educational assessments,
-              employment screening, and psychological evaluations.
+              These are physical illnesses or symptoms that are thought to arise
+              from emotional or mental factors. The mind can affect the body in
+              ways that lead to physical symptoms. Chronic Pain Disorders :
+              Conditions like fibromyalgia and chronic fatigue syndrome, where
+              pain and fatigue are linked to psychological stress and emotional
+              states. Tension Headaches and Migraines : Severe headaches often
+              triggered by stress, anxiety, or depression, resulting in intense
+              physical pain.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Emotional IQ Tests</strong>
+            <strong>Sleep Disorders</strong>
             <p>
-              Evaluate your ability to perceive, control, and express
-              emotions.Emotional IQ tests assess various aspects of emotional
-              intelligence, including how well individuals can perceive,
-              understand, and manage their own emotions and the emotions of
-              others. These tests aim to provide insights into how emotional
-              skills contribute to personal and professional interactions.
+              Insomnia: Difficulty falling or staying asleep, which can lead to
+              fatigue, concentration problems, and mood disturbances. Sleep
+              Apnea: A condition where breathing repeatedly stops and starts
+              during sleep, leading to poor sleep quality and increased risk of
+              cardiovascular issues.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Behavioral Assessments</strong>
+            <strong>Somatoform Disorders</strong>
             <p>
-              Analyze patterns of behavior to understand how they affect your
-              daily life and relationships.Behavioral assessments are systematic
-              methods used to observe, measure, and analyze behavior. They aim
-              to identify specific behaviors, their triggers, and their
-              consequences, helping to understand how these behaviors impact an
-              individual’s daily life and relationships.
+              Insomnia: Difficulty falling or staying asleep, which can lead to
+              fatigue, concentration problems, and mood disturbances. Sleep
+              Apnea: A condition where breathing repeatedly stops and starts
+              during sleep, leading to poor sleep quality and increased risk o
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Mood Disorder Evaluations</strong>
+            <strong>Cerebral Palsy</strong>
             <p>
-              Screen for conditions like depression, anxiety, and bipolar
-              disorder.
+              Cerebral Palsy: A group of disorders affecting a person’s ability
+              to move and maintain balance and posture. Caused by abnormal brain
+              development or damage to the developing brain, it can lead to a
+              range of physical symptoms, including spasticity (stiff muscles),
+              dystonia, and coordination issues. Cognitive impairments and
+              mental health challenges can also be associated.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Stress and Coping Tests</strong>
+            <strong>Brain Tumors</strong>
             <p>
-              Assess how you respond to stress and the effectiveness of your
-              coping mechanisms.
+              Primary Brain Tumors: Tumors that originate in the brain and can
+              affect cognitive function, coordination, balance, and other
+              neurological functions depending on their location and size.
+              Symptoms can include headaches, seizures, and changes in mental
+              function or personality.
             </p>
           </li>
         </div>

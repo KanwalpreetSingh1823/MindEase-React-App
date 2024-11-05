@@ -6,7 +6,11 @@ import "./dashboard.css";
 const Academic = () => {
   useEffect(() => {
     const typed = new Typed(".textline", {
-      strings: ["Stroke", "Multiple Sclerosis", "Tension Headaches "],
+      strings: [
+        "Test Anxiety",
+        "Poor Time Management and Procrastination|",
+        "Learning Disabilities and Difficulties| ",
+      ],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -36,10 +40,9 @@ const Academic = () => {
                 Academic Tests = <span class="textline"></span>
               </h1>
               <p>
-                Psychological tests are standardized instruments used to measure
-                a specific aspect of an individual's mental health. These tests
-                can help assess cognitive abilities, emotional functioning,
-                personality traits, and more.
+                Academic problems can significantly affect a student's mental
+                health, emotional well-being and their potential impact on
+                students:
               </p>
             </section>
           </div>
@@ -58,16 +61,16 @@ const Academic = () => {
       {/* <marquee behavior="scroll" direction="left"> */}
       <div class="images">
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-1.jpg" alt="Stress" />
+          <img src="/Frontend/assets/academic/img1.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-2.jpg" alt="Stress" />
+          <img src="/Frontend/assets/academic/img2.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-3.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/academic/img3.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-4.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/academic/img4.jpg" alt="Stress" />
         </div>
       </div>
       {/* </marquee> */}
@@ -77,77 +80,107 @@ const Academic = () => {
       <div class="test">
         <div class="test">
           <li>
-            <strong>Personality Tests</strong>
+            <strong>Learning Disabilities and Difficulties</strong>
             <p>
-              Assess personality traits and how they influence
-              behavior.Personality tests are tools used to evaluate and
-              understand various personality traits and characteristics of
-              individuals. They often involve a series of questions or scenarios
-              that are designed to reveal patterns in thoughts, feelings, and
-              behaviors. These tests can provide insights into an individual's
-              personality traits, strengths, weaknesses, and preferences.
+              Description: Learning disabilities are neurological disorders that
+              affect a person’s ability to receive, process, or communicate
+              information. Common types include dyslexia (difficulty with
+              reading), dyscalculia (difficulty with math), and dysgraphia
+              (difficulty with writing). Struggling to keep up with peers
+              academically Difficulty with reading comprehension, spelling, or
+              mathematical calculations Trouble with writing tasks or organizing
+              thoughts Frequent frustration or anxiety related to schoolwork
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Cognitive Ability Tests</strong>
+            <strong>Test Anxiety</strong>
             <p>
-              Measure mental processes like memory, reasoning, and
-              problem-solving.Cognitive ability tests evaluate different
-              cognitive functions and mental processes to determine how well
-              individuals can think, learn, and apply knowledge. These tests are
-              used in various settings, including educational assessments,
-              employment screening, and psychological evaluations.
+              Description: Test anxiety is a form of performance anxiety that
+              can cause significant distress and hinder a student's ability to
+              perform well on exams. Physical symptoms like sweating, rapid
+              heartbeat, nausea, and shaking before or during tests Negative
+              thoughts, fear of failure, and self-doubt Difficulty concentrating
+              or remembering studied material during the exam Panic attacks or
+              feelings of dread related to testing situations
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Emotional IQ Tests</strong>
+            <strong>Poor Time Management and Procrastination</strong>
             <p>
-              Evaluate your ability to perceive, control, and express
-              emotions.Emotional IQ tests assess various aspects of emotional
-              intelligence, including how well individuals can perceive,
-              understand, and manage their own emotions and the emotions of
-              others. These tests aim to provide insights into how emotional
-              skills contribute to personal and professional interactions.
+              Description: Many students struggle with managing their time
+              effectively, leading to procrastination and last-minute stress.
+              This issue is often linked to lack of motivation, organizational
+              skills, or fear of failure. Constantly delaying or postponing
+              assignments and study sessions Cramming for exams or rushing
+              through assignments at the last minute Feeling overwhelmed by
+              academic responsibilities and deadlines Difficulty balancing
+              schoolwork with other activities or commitments.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Behavioral Assessments</strong>
+            <strong>Bullying and Peer Pressure</strong>
             <p>
-              Analyze patterns of behavior to understand how they affect your
-              daily life and relationships.Behavioral assessments are systematic
-              methods used to observe, measure, and analyze behavior. They aim
-              to identify specific behaviors, their triggers, and their
-              consequences, helping to understand how these behaviors impact an
-              individual’s daily life and relationships.
+              Description: Bullying and peer pressure in academic settings can
+              negatively impact a student's mental health and academic
+              performance. Bullying can be physical, verbal, or emotional, while
+              peer pressure often involves being coerced into behaviors against
+              one's values. Avoidance of school or certain classes due to fear
+              of bullying Changes in mood, behavior, or academic performance
+              Social withdrawal, loneliness, or feelings of rejection Increased
+              anxiety, depression, or low self-esteem Impact: Bullying and peer
+              pressure can lead to severe emotional distress, decreased academic
+              motivation, and poorer school performance. In extreme cases, they
+              can contribute to mental health disorders, suicidal thoughts, or
+              school dropout.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Mood Disorder Evaluations</strong>
+            <strong>High Academic Pressure and Expectations</strong>
             <p>
-              Screen for conditions like depression, anxiety, and bipolar
-              disorder.
+              Description: Many students face intense pressure to achieve high
+              academic standards from parents, teachers, or themselves. This
+              pressure can create stress and anxiety, especially when
+              expectations feel unattainable. Persistent worry about grades and
+              academic performance Fear of disappointing parents, teachers, or
+              oneself Perfectionism and excessive self-criticism Reduced
+              interest in learning or loss of motivation due to fear of failure
+              Impact: High academic pressure can lead to anxiety, depression,
+              burnout, and reduced overall well-being. It may also cause
+              students to engage in unhealthy behaviors, such as cheating,
+              substance abuse, or neglecting self-care.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Stress and Coping Tests</strong>
+            <strong>Inadequate Support and Resources</strong>
             <p>
-              Assess how you respond to stress and the effectiveness of your
-              coping mechanisms.
+              Description: Lack of adequate academic support, such as tutoring,
+              counseling, or access to learning materials, can hinder a
+              student's ability to succeed in school. This problem is often more
+              pronounced in underfunded schools or for students with special
+              needs. Struggling with academic content due to lack of guidance or
+              resources Feeling unsupported or misunderstood by teachers or
+              peers Difficulty completing assignments or preparing for exams
+              without adequate tools or help Decreased motivation and engagement
+              in academic activities Impact: Inadequate support can lead to
+              frustration, academic underperformance, and feelings of
+              helplessness or discouragement. It may also contribute to widening
+              achievement gaps and decreased opportunities for higher education
+              or career advancement.
             </p>
           </li>
         </div>

@@ -6,7 +6,11 @@ import "./dashboard.css";
 const Mood = () => {
   useEffect(() => {
     const typed = new Typed(".textline", {
-      strings: ["Stroke", "Multiple Sclerosis", "Tension Headaches "],
+      strings: [
+        "Loss Of Intrest",
+        "Feelings of Worthlessness",
+        "Loss Of Energy ",
+      ],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -36,10 +40,9 @@ const Mood = () => {
                 Mood Tests = <span class="textline"></span>
               </h1>
               <p>
-                Psychological tests are standardized instruments used to measure
-                a specific aspect of an individual's mental health. These tests
-                can help assess cognitive abilities, emotional functioning,
-                personality traits, and more.
+                Mood disorders are a category of mental health conditions that
+                primarily affect a person’s emotional state. These disorders can
+                vary in severity and duration.
               </p>
             </section>
           </div>
@@ -58,16 +61,16 @@ const Mood = () => {
       {/* <marquee behavior="scroll" direction="left"> */}
       <div class="images">
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-1.jpg" alt="Stress" />
+          <img src="/Frontend/assets/moods/img1.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-2.jpg" alt="Stress" />
+          <img src="/Frontend/assets/moods/img2.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-3.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/moods/img3.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-4.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/moods/img4.jpg" alt="Stress" />
         </div>
       </div>
       {/* </marquee> */}
@@ -77,77 +80,112 @@ const Mood = () => {
       <div class="test">
         <div class="test">
           <li>
-            <strong>Personality Tests</strong>
+            <strong>Major Depressive Disorder (MDD)</strong>
             <p>
-              Assess personality traits and how they influence
-              behavior.Personality tests are tools used to evaluate and
-              understand various personality traits and characteristics of
-              individuals. They often involve a series of questions or scenarios
-              that are designed to reveal patterns in thoughts, feelings, and
-              behaviors. These tests can provide insights into an individual's
-              personality traits, strengths, weaknesses, and preferences.
+              Persistent sad or "empty" mood Loss of interest or pleasure in
+              activities once enjoyed Significant weight loss or gain, or
+              changes in appetite Fatigue or loss of energy Feelings of
+              worthlessness or excessive guilt Difficulty thinking,
+              concentrating, or making decisions Recurrent thoughts of death or
+              suicide Impact: Major depressive disorder can severely impact
+              daily life, relationships, and work or school performance. It can
+              also lead to physical health problems, such as heart disease or
+              weakened immune function, due to chronic stress and poor
+              self-care.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Cognitive Ability Tests</strong>
+            <strong>Psychotic Depression</strong>
             <p>
-              Measure mental processes like memory, reasoning, and
-              problem-solving.Cognitive ability tests evaluate different
-              cognitive functions and mental processes to determine how well
-              individuals can think, learn, and apply knowledge. These tests are
-              used in various settings, including educational assessments,
-              employment screening, and psychological evaluations.
+              Description: A severe form of depression that occurs when a person
+              has depressive episodes with psychotic symptoms, such as
+              hallucinations or delusions. These psychotic features often have a
+              depressive theme, such as delusions of guilt, poverty, or illness.
+              Symptoms: Depressive symptoms, including deep sadness,
+              hopelessness, and fatigue Psychotic symptoms, such as delusions or
+              hallucinations, often related to feelings of worthlessness or
+              guilt Impact: Psychotic depression can be highly debilitating,
+              increasing the risk of suicide and requiring intensive treatment,
+              often including both antidepressants and antipsychotic
+              medications.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Emotional IQ Tests</strong>
+            <strong>Adjustment Disorder with Depressed Mood</strong>
             <p>
-              Evaluate your ability to perceive, control, and express
-              emotions.Emotional IQ tests assess various aspects of emotional
-              intelligence, including how well individuals can perceive,
-              understand, and manage their own emotions and the emotions of
-              others. These tests aim to provide insights into how emotional
-              skills contribute to personal and professional interactions.
+              Description: A mood disorder that occurs in response to a
+              significant life stressor or change (e.g., divorce, job loss,
+              death of a loved one). Unlike major depressive disorder, the
+              symptoms are usually temporary and directly related to the
+              external event. Symptoms: Low mood, sadness, and tearfulness
+              Feelings of hopelessness or being overwhelmed
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Behavioral Assessments</strong>
+            <strong>Double Depression</strong>
             <p>
-              Analyze patterns of behavior to understand how they affect your
-              daily life and relationships.Behavioral assessments are systematic
-              methods used to observe, measure, and analyze behavior. They aim
-              to identify specific behaviors, their triggers, and their
-              consequences, helping to understand how these behaviors impact an
-              individual’s daily life and relationships.
+              Double depression occurs when a person with persistent depressive
+              disorder (dysthymia) experiences an episode of major depressive
+              disorder (MDD). The chronic low mood of dysthymia can make the
+              person more vulnerable to major depressive episodes. Symptoms:
+              Symptoms of persistent depressive disorder, such as low
+              self-esteem, fatigue, and chronic sadness More intense depressive
+              symptoms typical of major depressive disorder, like severe
+              fatigue, loss of interest in daily activities, significant weight
+              changes, and thoughts of suicide during episodes Impact:
+              Individuals with double depression often experience more severe
+              symptoms and greater impairment in daily functioning than those
+              with either condition alone. Treatment may require a combination
+              of psychotherapy and medication.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Mood Disorder Evaluations</strong>
+            <strong>Mood Disorder Due to a General Medical Condition</strong>
             <p>
-              Screen for conditions like depression, anxiety, and bipolar
-              disorder.
+              Description: Mood disturbances caused directly by the
+              physiological effects of a general medical condition (such as
+              hypothyroidism, chronic pain, or neurological disorders). The mood
+              changes are a direct result of the medical condition and not due
+              to a primary mood disorder. Symptoms: Depressive or manic symptoms
+              linked to the underlying medical condition Symptoms that improve
+              with treatment of the medical condition Examples of medical
+              conditions that can cause mood disorders include Parkinson’s
+              disease, stroke, multiple sclerosis, thyroid disorders, and
+              chronic fatigue syndrome Impact: These mood disorders can
+              complicate the management of the underlying medical condition and
+              affect a person's overall quality of life. Effective management
+              often requires treating both the medical condition and the mood
+              symptoms.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Stress and Coping Tests</strong>
+            <strong>Depressive Disorders Due to Substance Withdrawal</strong>
             <p>
-              Assess how you respond to stress and the effectiveness of your
-              coping mechanisms.
+              Description: Mood disturbances, particularly depressive symptoms,
+              that occur during withdrawal from substances such as alcohol,
+              opioids, or benzodiazepines. The depressive symptoms are directly
+              related to the physiological withdrawal process. Symptoms:
+              Depressed mood, anhedonia (loss of pleasure), and fatigue Anxiety,
+              irritability, and restlessness Physical symptoms related to
+              withdrawal, such as tremors, sweating, and nausea Impact:
+              Depression during withdrawal can complicate the recovery process,
+              increase the risk of relapse, and may require medical and
+              psychological support.
             </p>
           </li>
         </div>
