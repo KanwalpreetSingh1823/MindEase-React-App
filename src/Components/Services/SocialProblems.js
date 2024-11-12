@@ -6,7 +6,11 @@ import "./dashboard.css";
 const SocialProblems = () => {
   useEffect(() => {
     const typed = new Typed(".textline", {
-      strings: ["Stroke", "Multiple Sclerosis", "Tension Headaches "],
+      strings: [
+        "Poverty and Financial Stress",
+        " Discrimination and Stigma",
+        "Social Isolation and Loneliness",
+      ],
       typeSpeed: 100,
       backSpeed: 100,
       backDelay: 1000,
@@ -36,10 +40,10 @@ const SocialProblems = () => {
                 Social Problems Tests = <span class="textline"></span>
               </h1>
               <p>
-                Psychological tests are standardized instruments used to measure
-                a specific aspect of an individual's mental health. These tests
-                can help assess cognitive abilities, emotional functioning,
-                personality traits, and more.
+                Social problems can significantly impact mental health in
+                various ways, affecting individuals' emotional well-being,
+                behavior, and overall quality of life. These problems often
+                create stress, anxiety, depression.
               </p>
             </section>
           </div>
@@ -58,16 +62,16 @@ const SocialProblems = () => {
       {/* <marquee behavior="scroll" direction="left"> */}
       <div class="images">
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-1.jpg" alt="Stress" />
+          <img src="/Frontend/assets/social/img1.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-2.jpg" alt="Stress" />
+          <img src="/Frontend/assets/social/img2.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-3.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/social/img3.jpg" alt="Stress" />
         </div>
         <div class="image">
-          <img src="/Frontend/assets/Tests/Psycho-4.jpeg" alt="Stress" />
+          <img src="/Frontend/assets/social/img4.jpg" alt="Stress" />
         </div>
       </div>
       {/* </marquee> */}
@@ -77,77 +81,104 @@ const SocialProblems = () => {
       <div class="test">
         <div class="test">
           <li>
-            <strong>Personality Tests</strong>
+            <strong>Discrimination and Stigma</strong>
             <p>
-              Assess personality traits and how they influence
-              behavior.Personality tests are tools used to evaluate and
-              understand various personality traits and characteristics of
-              individuals. They often involve a series of questions or scenarios
-              that are designed to reveal patterns in thoughts, feelings, and
-              behaviors. These tests can provide insights into an individual's
-              personality traits, strengths, weaknesses, and preferences.
+              Impact: Psychological Distress: Experiencing discrimination and
+              stigma due to race, gender, sexual orientation, or disability can
+              lead to increased stress, anxiety, and depression. Internalized
+              Negative Beliefs: Repeated exposure to discrimination can lead
+              individuals to internalize negative beliefs about themselves,
+              lowering self-esteem and contributing to feelings of worthlessness
+              or shame. Barriers to Seeking Help: Stigma associated with certain
+              identities or conditions can prevent people from seeking mental
+              health care, leading to untreated mental health issues and
+              worsening outcomes.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Cognitive Ability Tests</strong>
+            <strong>Bullying and Harassment</strong>
             <p>
-              Measure mental processes like memory, reasoning, and
-              problem-solving.Cognitive ability tests evaluate different
-              cognitive functions and mental processes to determine how well
-              individuals can think, learn, and apply knowledge. These tests are
-              used in various settings, including educational assessments,
-              employment screening, and psychological evaluations.
+              Trauma and Anxiety: Victims of bullying and harassment, whether
+              in-person or online, often experience trauma, anxiety, and fear.
+              This can lead to long-term psychological effects such as
+              post-traumatic stress disorder (PTSD) and depression. Social
+              Withdrawal: Repeated bullying or harassment can cause individuals
+              to withdraw from social interactions and activities, leading to
+              increased feelings of isolation and loneliness. Self-Harm and
+              Suicidal Thoughts: In severe cases, bullying and harassment can
+              lead to self-harm behaviors and suicidal ideation, particularly
+              among adolescents and young adults.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Emotional IQ Tests</strong>
+            <strong>Relationship Problems</strong>
             <p>
-              Evaluate your ability to perceive, control, and express
-              emotions.Emotional IQ tests assess various aspects of emotional
-              intelligence, including how well individuals can perceive,
-              understand, and manage their own emotions and the emotions of
-              others. These tests aim to provide insights into how emotional
-              skills contribute to personal and professional interactions.
+              Emotional Disturbance: Conflict, infidelity, or breakdown in
+              relationships can cause significant emotional pain, leading to
+              depression, anxiety, and low self-esteem. Negative Coping
+              Mechanisms: Individuals facing relationship problems may turn to
+              negative coping mechanisms like substance abuse, further affecting
+              their mental health. Lack of Support: Troubled relationships often
+              result in a lack of emotional support, which is crucial for coping
+              with stress and adversity. This absence can exacerbate feelings of
+              loneliness and increase vulnerability to mental health disorders.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Behavioral Assessments</strong>
+            <strong>Workplace Stress and Unemployment</strong>
             <p>
-              Analyze patterns of behavior to understand how they affect your
-              daily life and relationships.Behavioral assessments are systematic
-              methods used to observe, measure, and analyze behavior. They aim
-              to identify specific behaviors, their triggers, and their
-              consequences, helping to understand how these behaviors impact an
-              individual’s daily life and relationships.
+              Stress and Burnout: High-pressure work environments, lack of job
+              security, and poor work-life balance can lead to chronic stress
+              and burnout, which are risk factors for anxiety, depression, and
+              other mental health issues. Financial Insecurity: Unemployment
+              often results in financial insecurity, which compounds stress and
+              anxiety, negatively impacting mental health. Loss of Identity and
+              Purpose: Unemployment or underemployment can affect a person's
+              sense of identity, self-worth, and purpose, leading to feelings of
+              inadequacy and depression.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Mood Disorder Evaluations</strong>
+            <strong>Family Conflict and Domestic Violence</strong>
             <p>
-              Screen for conditions like depression, anxiety, and bipolar
-              disorder.
+              Emotional Trauma: Exposure to domestic violence and family
+              conflict can cause emotional trauma, leading to mental health
+              conditions such as PTSD, anxiety, and depression. Developmental
+              Issues in Children: Children who witness or experience domestic
+              violence may have developmental and behavioral issues, including
+              anxiety, depression, and difficulty forming healthy relationships
+              later in life. Cycle of Abuse: Victims of domestic violence may
+              struggle with self-esteem and self-worth, making it harder to
+              leave abusive situations and increasing the risk of developing
+              complex mental health disorders.
             </p>
           </li>
         </div>
 
         <div class="test">
           <li>
-            <strong>Stress and Coping Tests</strong>
+            <strong>Social Media and Cyberbullying</strong>
             <p>
-              Assess how you respond to stress and the effectiveness of your
-              coping mechanisms.
+              Comparison and Low Self-Esteem: Excessive use of social media can
+              lead to negative self-comparison and low self-esteem, particularly
+              among adolescents and young adults. This can contribute to anxiety
+              and depression. Cyberbullying: Online harassment or bullying can
+              have severe psychological effects, including depression, anxiety,
+              and suicidal thoughts. Sleep Disruption: Overuse of social media,
+              particularly late at night, can disrupt sleep patterns,
+              contributing to poor mental health.
             </p>
           </li>
         </div>
